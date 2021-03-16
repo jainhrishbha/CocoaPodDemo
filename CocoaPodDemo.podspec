@@ -3,11 +3,11 @@
 Pod::Spec.new do |spec|
 
  
-spec.platform = :ios
-spec.ios.deployment_target = '13.6'
+  spec.platform = :ios
+  spec.ios.deployment_target = '13.6'
   spec.name         = "CocoaPodDemo"
-  spec.version      = "1.0.1"
-  spec.summary      = "A short description of CocoaPodDemo. It lets you change background automatically."
+  spec.version      = "1.0.2"
+  spec.summary      = "A short description of CocoaPodDemo. It lets you change background automatically. It helps in changing colors"
 
   spec.requires_arc = true
   
@@ -19,9 +19,9 @@ spec.ios.deployment_target = '13.6'
   spec.author             = { "Hrishbha Jain" => "hrishbhajain@magenative.com" }
 
  
-  spec.source       = { :git => "https://github.com/jainhrishbha/CocoaPodDemo.git", :tag => "#{spec.version}" }
+   spec.source       = { :git => "https://github.com/jainhrishbha/CocoaPodDemo.git", :tag => "#{spec.version}" }
   
-  spec.source_files = "CocoaTest/**/*.{swift}"
+   spec.source_files = "CocoaPodDemo/**/*.{swift}"
 
-  spec.swift_version = "5.0"
+   spec.swift_version = "5.0"
 end
