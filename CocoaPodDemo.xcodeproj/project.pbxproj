@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF89A1AF2601BEF8009FAF26 /* ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF89A1AE2601BEF8009FAF26 /* ColorChange.swift */; };
 		CF98D3DC25FF304D00E0A346 /* CocoaPodDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98D3D225FF304D00E0A346 /* CocoaPodDemo.framework */; };
 		CF98D3E125FF304D00E0A346 /* CocoaPodDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF98D3E025FF304D00E0A346 /* CocoaPodDemoTests.swift */; };
 		CF98D3E325FF304D00E0A346 /* CocoaPodDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = CF98D3D525FF304D00E0A346 /* CocoaPodDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +32,7 @@
 		5BB6E9EC54EE4C7A413DCD0F /* libPods-CocoaPodDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaPodDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8967F0CA42BF86B534190FB6 /* Pods-CocoaPodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodDemo.release.xcconfig"; path = "Target Support Files/Pods-CocoaPodDemo/Pods-CocoaPodDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AC20DEB9F88684818D39E7E7 /* Pods-CocoaPodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodDemo.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPodDemo/Pods-CocoaPodDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF89A1AE2601BEF8009FAF26 /* ColorChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChange.swift; sourceTree = "<group>"; };
 		CF98D3D225FF304D00E0A346 /* CocoaPodDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaPodDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF98D3D525FF304D00E0A346 /* CocoaPodDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaPodDemo.h; sourceTree = "<group>"; };
 		CF98D3D625FF304D00E0A346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				CF98D3D625FF304D00E0A346 /* Info.plist */,
 				CF98D3FF25FF3E9400E0A346 /* ViewController.swift */,
 				CF98D40325FF615B00E0A346 /* newTestFileDemo.swift */,
+				CF89A1AE2601BEF8009FAF26 /* ColorChange.swift */,
 			);
 			path = CocoaPodDemo;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF98D40025FF3E9400E0A346 /* ViewController.swift in Sources */,
+				CF89A1AF2601BEF8009FAF26 /* ColorChange.swift in Sources */,
 				CF98D40425FF615B00E0A346 /* newTestFileDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
