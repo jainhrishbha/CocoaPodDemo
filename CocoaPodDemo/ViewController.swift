@@ -9,20 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let colors : [UIColor] = [.red, .green, .orange , .black, .cyan, .darkGray, .blue , .gray]
-    var colorCounter = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let colorChangeTool = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: true) { _ in
-            UIView.animate(withDuration: 5.0) {
-                self.view.backgroundColor = self.colors[self.colorCounter % 6]
-                self.colorCounter += 1
-                
-            }
-            
-        }
-        
-        colorChangeTool.fire()
         
         // Do any additional setup after loading the view.
     }
